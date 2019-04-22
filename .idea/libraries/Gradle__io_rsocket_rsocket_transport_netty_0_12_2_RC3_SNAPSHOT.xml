@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.rsocket:rsocket-transport-netty:0.12.2-RC3-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.rsocket/rsocket-transport-netty/0.12.2-RC3-SNAPSHOT/5a459c7c8935d5db0ec68992987bf1dbbaadc83e/rsocket-transport-netty-0.12.2-RC3-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.rsocket/rsocket-transport-netty/0.12.2-RC3-SNAPSHOT/bea6622ff0810921fac88e6a77bcb4415fd370aa/rsocket-transport-netty-0.12.2-RC3-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

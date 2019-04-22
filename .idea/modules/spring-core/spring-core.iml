@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":spring-core" external.linked.project.path="$USER_HOME$/spring-framework/spring-framework/spring-core" external.root.project.path="$USER_HOME$/spring-framework/spring-framework" external.system.id="GRADLE" external.system.module.group="org.springframework" external.system.module.version="5.2.0.BUILD-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$USER_HOME$/spring-framework/spring-framework/spring-core">
+      <excludeFolder url="file://$USER_HOME$/spring-framework/spring-framework/spring-core/.gradle" />
+      <excludeFolder url="file://$USER_HOME$/spring-framework/spring-framework/spring-core/build" />
+      <excludeFolder url="file://$USER_HOME$/spring-framework/spring-framework/spring-core/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

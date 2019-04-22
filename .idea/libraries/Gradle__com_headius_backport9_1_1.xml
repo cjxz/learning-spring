@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.headius:backport9:1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.headius/backport9/1.1/ff265cbb64b4cac3528b342d80234caa98d7eb9b/backport9-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.headius/backport9/1.1/f02ce76c1a4426c9655d20a23f5c3a418a997201/backport9-1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

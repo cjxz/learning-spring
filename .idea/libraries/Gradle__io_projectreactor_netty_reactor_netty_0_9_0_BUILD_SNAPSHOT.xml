@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.projectreactor.netty:reactor-netty:0.9.0.BUILD-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.projectreactor.netty/reactor-netty/0.9.0.BUILD-SNAPSHOT/8df35957f98c63c029fad79afdb85e9b5c3f09bd/reactor-netty-0.9.0.BUILD-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.projectreactor.netty/reactor-netty/0.9.0.BUILD-SNAPSHOT/8cc2b75eb637d41ff5bec17166108158a6d5068e/reactor-netty-0.9.0.BUILD-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

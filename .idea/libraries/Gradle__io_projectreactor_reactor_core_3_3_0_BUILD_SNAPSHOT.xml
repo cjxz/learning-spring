@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.projectreactor:reactor-core:3.3.0.BUILD-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.3.0.BUILD-SNAPSHOT/b31b56247323331b72fd8ec335ac4da77ad05e6c/reactor-core-3.3.0.BUILD-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.3.0.BUILD-SNAPSHOT/94ac481d1a6c8dfa415972da668e156e7ab8a6e/reactor-core-3.3.0.BUILD-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
