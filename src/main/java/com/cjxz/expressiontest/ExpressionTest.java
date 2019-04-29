@@ -19,10 +19,11 @@ import org.springframework.expression.spel.support.StandardEvaluationContext;
  */
 public class ExpressionTest {
     public static void main(String[] args) {
-        ExpressionByObject();
-//        ExpressionByMethod();
+//        simpleDemo();
+//        ExpressionByObject();
+        ExpressionByMethod();
 //        ExpressionByCollection();
-        ExpressionByAnnotation();
+//        ExpressionByAnnotation();
     }
 
     public static void simpleDemo(){
@@ -37,11 +38,6 @@ public class ExpressionTest {
 
         exp = parser.parseExpression("'hello world'.split(' ')");
         String[] arr = (String[])exp.getValue();
-
-        exp = parser.parseExpression("com.cjxz.expressiontest.ExpressionTest.test()");
-        msg = exp.getValue(String.class);
-        System.out.println(msg);
-
         System.out.println(arr);
     }
 
