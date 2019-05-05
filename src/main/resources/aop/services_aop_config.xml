@@ -7,11 +7,14 @@
         http://www.springframework.org/schema/aop
         http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
 
-    <!-- 可以使用下面的aspectj-autoproxy自动创建代理，也可以使用AnnotationAwareAspectJAutoProxyCreator帮我们创建代理
-        最终都可以实现使用@Aspect来实现AOP
-     -->
-<!--    <aop:aspectj-autoproxy />-->
+    <!-- 使用AOP的配置，配置一个增强 -->
+
+    <aop:config proxy-target-class="true">
+        <aop:aspect ref="adviceMethods">
+            <aop:before pointcut="execution(* com.cjxz.aop.*.*.*(..))" method="getTx"/>
+        </aop:aspect>
+    </aop:config>
+    <!-- 下面的是业务Service，需要添加增强的目标对象 -->
     <bean id="businessService" class="com.cjxz.aop.aspect.BusinessService"/>
-    <bean class="com.cjxz.aop.aspect.OrderAspect"/>
-    <bean class="org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator"/>
+    <bean id="adviceMethods" class="com.cjxz.aop.config.AdviceMethods"/>
 </beans>

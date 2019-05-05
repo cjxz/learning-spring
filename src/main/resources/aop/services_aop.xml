@@ -7,6 +7,9 @@
         http://www.springframework.org/schema/aop
         http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
 
+    <!-- 可以使用下面的aspectj-autoproxy自动创建代理，也可以使用AnnotationAwareAspectJAutoProxyCreator帮我们创建代理
+        最终都可以实现使用@Aspect来实现AOP
+     -->
 <!--    <aop:aspectj-autoproxy />-->
     <bean id="businessService" class="com.cjxz.aop.aspect.BusinessService"/>
     <bean class="com.cjxz.aop.aspect.OrderAspect"/>
