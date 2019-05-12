@@ -4,6 +4,7 @@ import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileReader;
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.Reader;
 import java.net.MalformedURLException;
@@ -15,6 +16,7 @@ import org.springframework.core.io.FileSystemResource;
 import org.springframework.core.io.FileUrlResource;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.UrlResource;
+import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import sun.misc.IOUtils;
 
 /**
@@ -28,7 +30,7 @@ public class TestResource {
     public static void main(String[] args) throws Exception{
 
 
-        testFileUrlResource();
+        testPathMatchResource();
     }
 
     public static void testFileUrlResource() throws Exception {
@@ -71,6 +73,18 @@ public class TestResource {
         byte[] bytes = IOUtils.readFully(in,-1,true);
         String s = new String(bytes,"utf-8");
         System.out.println(s);
+    }
+
+    public static void testPathMatchResource() throws Exception {
+        PathMatchingResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
+        Resource[] resources = resolver.getResources("fileResource/services_*.xml");
+        for(Resource resource : resources){
+            System.out.println("解析文件开始");
+            InputStream in = resource.getInputStream();
+            byte[] bytes = IOUtils.readFully(in,-1,true);
+            String s = new String(bytes,"utf-8");
+            System.out.println(s);
+        }
     }
 
 }
