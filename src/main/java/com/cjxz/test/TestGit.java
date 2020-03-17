@@ -18,5 +18,6 @@ public class TestGit {
         System.out.println("2");
         System.out.println("2");
         System.out.println("2");
+        System.out.println("上海");
     }
 }
