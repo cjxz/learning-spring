@@ -12,4 +12,7 @@ package com.cjxz.test;
  * @date 2020/3/17下午8:44
  */
 public class TestGit {
+    public static void main(String[] args) {
+        System.out.println("1");
+    }
 }
